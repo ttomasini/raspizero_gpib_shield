@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name Raspi_GPIB)(type Legacy)(uri ${KIPRJMOD}/Raspi_GPIB.lib)(options "")(descr "Raspi_GPIB specifics"))
+  (version 7)
+  (lib (name "Raspi_GPIB")(type "KiCad")(uri "${KIPRJMOD}/Raspi_GPIB.kicad_sym")(options "")(descr "Raspi_GPIB specifics"))
 )
