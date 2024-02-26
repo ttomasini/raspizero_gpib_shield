@@ -5,6 +5,452 @@
 	(uuid "b1f1a091-582b-48a7-9a60-19cddd96f9a2")
 	(paper "USLetter")
 	(lib_symbols
+		(symbol "Connector:USB_C_Receptacle_PowerOnly_6P"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "USB_C_Receptacle_PowerOnly_6P"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "usb universal serial bus type-C power-only charging-only 6P 6C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "USB*C*Receptacle*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB_C_Receptacle_PowerOnly_6P_0_0"
+				(rectangle
+					(start -0.254 -12.7)
+					(end 0.254 -11.684)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -7.366)
+					(end 9.144 -7.874)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 7.874)
+					(end 9.144 7.366)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_PowerOnly_6P_0_1"
+				(rectangle
+					(start -10.16 12.7)
+					(end 10.16 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -8.89 -1.27)
+					(mid -6.985 -3.1667)
+					(end -5.08 -1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 -1.27)
+					(mid -6.985 -1.9023)
+					(end -6.35 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 -1.27)
+					(mid -6.985 -1.9023)
+					(end -6.35 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -1.27)
+					(end -6.35 6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -6.35 6.35)
+					(mid -6.985 6.9823)
+					(end -7.62 6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 6.35)
+					(mid -6.985 6.9823)
+					(end -7.62 6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -5.08 6.35)
+					(mid -6.985 8.2467)
+					(end -8.89 6.35)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 3.683)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -3.302)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -1.27) (xy -8.89 6.35)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 6.35) (xy -5.08 -1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy 0 6.858)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy -2.54 1.778) (xy -2.54 3.048)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 2.54 3.048) (xy 2.54 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.858) (xy 0 9.398) (xy 1.27 6.858) (xy -1.27 6.858)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 4.318)
+					(end 3.175 5.588)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_PowerOnly_6P_1_1"
+				(pin passive line
+					(at 0 -17.78 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 7.62 180)
+					(length 5.08) hide
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -17.78 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -3208,9 +3654,9 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3308,8 +3754,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3.3V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3328,9 +3774,9 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3428,8 +3874,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3448,9 +3894,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3524,8 +3970,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3620,6 +4066,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "542cb0e1-79b4-475b-9270-f3a02650c2e6")
+	)
+	(junction
+		(at 245.11 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fe82902-64e8-4b3a-80bf-da21003be18f")
 	)
 	(junction
 		(at 144.78 63.5)
@@ -4413,6 +4865,26 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 62.23) (xy 246.38 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39fbac58-fbd7-4aa9-b543-12086af4acd4")
+	)
+	(wire
+		(pts
+			(xy 245.11 58.42) (xy 242.57 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9181f4-940e-4649-b8e1-183e58e28882")
+	)
+	(wire
+		(pts
 			(xy 53.34 64.77) (xy 68.58 64.77)
 		)
 		(stroke
@@ -4420,6 +4892,16 @@
 			(type default)
 		)
 		(uuid "3de6f997-c8ed-4af5-afdd-ea7475eadfb2")
+	)
+	(wire
+		(pts
+			(xy 246.38 59.69) (xy 245.11 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b02d5e-8f1c-4c17-8a2b-4e3c66e5b819")
 	)
 	(wire
 		(pts
@@ -4673,6 +5155,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 60.96) (xy 245.11 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5780ea73-6a4a-42ba-a2b6-f5a278495541")
+	)
+	(wire
+		(pts
 			(xy 40.64 96.52) (xy 25.4 96.52)
 		)
 		(stroke
@@ -4853,6 +5345,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 71.12) (xy 218.44 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740bbece-5ad1-405c-99b8-d014b020b494")
+	)
+	(wire
+		(pts
 			(xy 53.34 59.69) (xy 68.58 59.69)
 		)
 		(stroke
@@ -4913,6 +5415,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 60.96) (xy 234.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "868ac820-82a3-46f6-a8ad-fcbd9b555edb")
+	)
+	(wire
+		(pts
 			(xy 105.41 116.84) (xy 105.41 132.08)
 		)
 		(stroke
@@ -4950,6 +5462,16 @@
 			(type default)
 		)
 		(uuid "8ef80eed-f2f1-4fa8-a6f0-b3bdfd3285f9")
+	)
+	(wire
+		(pts
+			(xy 233.68 58.42) (xy 234.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa234e1-14ad-4306-ab35-ee3c1bf89994")
 	)
 	(wire
 		(pts
@@ -5060,6 +5582,16 @@
 			(type default)
 		)
 		(uuid "a0187bf0-d8be-4f7a-8317-d4d9eca3cae4")
+	)
+	(wire
+		(pts
+			(xy 245.11 59.69) (xy 245.11 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09818c9-3a86-4132-bf81-392d53d96aea")
 	)
 	(wire
 		(pts
@@ -5183,6 +5715,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 45.72) (xy 246.38 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ee2501-5d2f-45db-b83c-26340f3117db")
+	)
+	(wire
+		(pts
 			(xy 55.88 116.84) (xy 55.88 119.38)
 		)
 		(stroke
@@ -5190,6 +5732,16 @@
 			(type default)
 		)
 		(uuid "b267136e-fac5-47cc-99d5-003b74d35ec3")
+	)
+	(wire
+		(pts
+			(xy 210.82 71.12) (xy 210.82 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43ea82c-7a93-4b67-a607-981041261675")
 	)
 	(wire
 		(pts
@@ -5370,6 +5922,16 @@
 			(type default)
 		)
 		(uuid "c06d3219-95d4-426a-a90e-c9f064e69973")
+	)
+	(wire
+		(pts
+			(xy 245.11 60.96) (xy 245.11 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c08d1f76-e33b-4872-8657-1342070287b0")
 	)
 	(wire
 		(pts
@@ -5680,6 +6242,16 @@
 			(type default)
 		)
 		(uuid "ead2ab2b-dfa0-412b-b9f9-d2b5ea053205")
+	)
+	(wire
+		(pts
+			(xy 233.68 45.72) (xy 246.38 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb2bb79e-b173-4c96-ab69-c9c58a4a4ef0")
 	)
 	(wire
 		(pts
@@ -6708,17 +7280,6 @@
 		)
 		(uuid "f68dc638-248a-41d1-9565-070b039368a2")
 	)
-	(label "PWR"
-		(at 58.42 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "f7ade50c-2d68-405d-9251-9557f83e8978")
-	)
 	(symbol
 		(lib_id "power:GND")
 		(at 38.1 78.74 0)
@@ -6761,7 +7322,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 38.1 78.74 0)
 			(effects
 				(font
@@ -6824,7 +7385,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 55.88 78.74 0)
 			(effects
 				(font
@@ -6887,7 +7448,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 55.88 24.13 0)
 			(effects
 				(font
@@ -6950,7 +7511,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 38.1 24.13 0)
 			(effects
 				(font
@@ -7013,7 +7574,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 55.88 124.46 0)
 			(effects
 				(font
@@ -7070,7 +7631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 88.9 101.6 0)
 			(effects
 				(font
@@ -7078,7 +7639,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 88.9 101.6 0)
 			(effects
 				(font
@@ -7144,7 +7705,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 88.9 105.41 0)
 			(effects
 				(font
@@ -7199,7 +7760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 137.16 111.76 0)
 			(effects
 				(font
@@ -7207,7 +7768,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 137.16 111.76 0)
 			(effects
 				(font
@@ -7265,7 +7826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 139.7 111.76 0)
 			(effects
 				(font
@@ -7273,7 +7834,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 139.7 111.76 0)
 			(effects
 				(font
@@ -7331,7 +7892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 142.24 111.76 0)
 			(effects
 				(font
@@ -7339,7 +7900,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 142.24 111.76 0)
 			(effects
 				(font
@@ -7397,7 +7958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 144.78 111.76 0)
 			(effects
 				(font
@@ -7405,7 +7966,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 144.78 111.76 0)
 			(effects
 				(font
@@ -7463,7 +8024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 152.4 111.76 0)
 			(effects
 				(font
@@ -7471,7 +8032,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 152.4 111.76 0)
 			(effects
 				(font
@@ -7529,7 +8090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 154.94 111.76 0)
 			(effects
 				(font
@@ -7537,7 +8098,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 154.94 111.76 0)
 			(effects
 				(font
@@ -7595,7 +8156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 157.48 111.76 0)
 			(effects
 				(font
@@ -7603,7 +8164,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 157.48 111.76 0)
 			(effects
 				(font
@@ -7661,7 +8222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 160.02 111.76 0)
 			(effects
 				(font
@@ -7669,7 +8230,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 160.02 111.76 0)
 			(effects
 				(font
@@ -7727,7 +8288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 137.16 45.72 0)
 			(effects
 				(font
@@ -7735,7 +8296,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 137.16 45.72 0)
 			(effects
 				(font
@@ -7793,7 +8354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 139.7 45.72 0)
 			(effects
 				(font
@@ -7801,7 +8362,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 139.7 45.72 0)
 			(effects
 				(font
@@ -7859,7 +8420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 142.24 45.72 0)
 			(effects
 				(font
@@ -7867,7 +8428,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 142.24 45.72 0)
 			(effects
 				(font
@@ -7925,7 +8486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 144.78 45.72 0)
 			(effects
 				(font
@@ -7933,7 +8494,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 144.78 45.72 0)
 			(effects
 				(font
@@ -7991,7 +8552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 152.4 45.72 0)
 			(effects
 				(font
@@ -7999,7 +8560,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 152.4 45.72 0)
 			(effects
 				(font
@@ -8057,7 +8618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 154.94 45.72 0)
 			(effects
 				(font
@@ -8065,7 +8626,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 154.94 45.72 0)
 			(effects
 				(font
@@ -8123,7 +8684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 157.48 45.72 0)
 			(effects
 				(font
@@ -8131,7 +8692,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 157.48 45.72 0)
 			(effects
 				(font
@@ -8189,7 +8750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 160.02 45.72 0)
 			(effects
 				(font
@@ -8197,7 +8758,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 160.02 45.72 0)
 			(effects
 				(font
@@ -8255,15 +8816,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
 			(at 113.03 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8 resistor network, star topology, bussed resistors, small symbol"
 			(at 113.03 45.72 0)
 			(effects
 				(font
@@ -8342,15 +8904,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 113.03 111.76 0)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 114.3 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8 resistor network, star topology, bussed resistors, small symbol"
 			(at 113.03 111.76 0)
 			(effects
 				(font
@@ -8430,15 +8993,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
 			(at 113.03 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8 resistor network, star topology, bussed resistors, small symbol"
 			(at 113.03 83.82 0)
 			(effects
 				(font
@@ -8518,15 +9082,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
 			(at 113.03 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8 resistor network, star topology, bussed resistors, small symbol"
 			(at 113.03 149.86 0)
 			(effects
 				(font
@@ -8613,7 +9178,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 102.87 154.94 0)
 			(effects
 				(font
@@ -8676,7 +9241,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 102.87 88.9 0)
 			(effects
 				(font
@@ -8731,7 +9296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 66.04 152.4 0)
 			(effects
 				(font
@@ -8739,7 +9304,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 66.04 152.4 0)
 			(effects
 				(font
@@ -8797,7 +9362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 66.04 161.29 0)
 			(effects
 				(font
@@ -8805,7 +9370,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 66.04 161.29 0)
 			(effects
 				(font
@@ -8871,7 +9436,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 66.04 165.1 0)
 			(effects
 				(font
@@ -8926,7 +9491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 39.37 152.4 0)
 			(effects
 				(font
@@ -8934,7 +9499,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 39.37 152.4 0)
 			(effects
 				(font
@@ -8992,7 +9557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 39.37 161.29 0)
 			(effects
 				(font
@@ -9000,7 +9565,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 39.37 161.29 0)
 			(effects
 				(font
@@ -9066,7 +9631,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 39.37 165.1 0)
 			(effects
 				(font
@@ -9309,7 +9874,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 88.9 97.79 0)
 			(effects
 				(font
@@ -9372,7 +9937,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 102.87 40.64 0)
 			(effects
 				(font
@@ -9435,7 +10000,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 102.87 106.68 0)
 			(effects
 				(font
@@ -9498,7 +10063,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 54.61 146.05 0)
 			(effects
 				(font
@@ -9685,7 +10250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 20.32 191.77 0)
 			(effects
 				(font
@@ -9694,7 +10259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 20.32 191.77 0)
 			(effects
 				(font
@@ -9749,7 +10314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 39.37 191.77 0)
 			(effects
 				(font
@@ -9758,7 +10323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 39.37 191.77 0)
 			(effects
 				(font
@@ -9813,7 +10378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 58.42 191.77 0)
 			(effects
 				(font
@@ -9822,7 +10387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 58.42 191.77 0)
 			(effects
 				(font
@@ -9877,7 +10442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 77.47 191.77 0)
 			(effects
 				(font
@@ -9886,7 +10451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 77.47 191.77 0)
 			(effects
 				(font
@@ -9949,7 +10514,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 20.32 194.31 0)
 			(effects
 				(font
@@ -10012,7 +10577,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 39.37 194.31 0)
 			(effects
 				(font
@@ -10075,7 +10640,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 58.42 194.31 0)
 			(effects
 				(font
@@ -10138,7 +10703,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 77.47 194.31 0)
 			(effects
 				(font
@@ -10201,7 +10766,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 38.1 124.46 0)
 			(effects
 				(font
@@ -10217,6 +10782,72 @@
 			(project "Raspi_GPIB_Zero_V6"
 				(path "/b1f1a091-582b-48a7-9a60-19cddd96f9a2"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 246.38 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14026a7b-76c9-448e-aff3-7bf9e18d9bb9")
+		(property "Reference" "#PWR011"
+			(at 246.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 246.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 246.38 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7301ff5b-1770-4744-8b45-1fa99b1edf68")
+		)
+		(instances
+			(project "Raspi_GPIB_Zero_V6"
+				(path "/b1f1a091-582b-48a7-9a60-19cddd96f9a2"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10268,7 +10899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 113.03 194.31 0)
 			(effects
 				(font
@@ -10332,7 +10963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 113.03 187.96 0)
 			(effects
 				(font
@@ -10345,6 +10976,155 @@
 			(project "Raspi_GPIB_Zero_V6"
 				(path "/b1f1a091-582b-48a7-9a60-19cddd96f9a2"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_PowerOnly_6P")
+		(at 218.44 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70bec7e3-9a38-476f-aea6-5491b8a4f169")
+		(property "Reference" "J1"
+			(at 218.44 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_PowerOnly_6P"
+			(at 218.44 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal"
+			(at 222.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B12"
+			(uuid "b82c0fbf-80d5-4e42-8c6f-5cb9c5ae70b7")
+		)
+		(pin "A5"
+			(uuid "d14a5b58-0854-4cd8-85cf-48849f3d2878")
+		)
+		(pin "A9"
+			(uuid "38bf16b3-95ba-42cf-a60f-a60efeee92d3")
+		)
+		(pin "S1"
+			(uuid "1ca713af-e2d3-42a8-8403-aa18e0c36e5c")
+		)
+		(pin "B9"
+			(uuid "cc7626b5-a49b-4d0a-9a34-740c6fc4bb73")
+		)
+		(pin "A12"
+			(uuid "4638f27b-c7d9-4251-a35d-71fe509d1117")
+		)
+		(pin "B5"
+			(uuid "844fb3c6-533c-4de7-9162-286b4631e638")
+		)
+		(instances
+			(project "Raspi_GPIB_Zero_V6"
+				(path "/b1f1a091-582b-48a7-9a60-19cddd96f9a2"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dce80da-2d05-4166-ae21-ab77ecc2084c")
+		(property "Reference" "#PWR010"
+			(at 210.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bd37a1e-eb21-4ddd-bd0c-5ec89d2c622f")
+		)
+		(instances
+			(project "Raspi_GPIB_Zero_V6"
+				(path "/b1f1a091-582b-48a7-9a60-19cddd96f9a2"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10396,7 +11176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 113.03 175.26 0)
 			(effects
 				(font
@@ -10409,6 +11189,73 @@
 			(project "Raspi_GPIB_Zero_V6"
 				(path "/b1f1a091-582b-48a7-9a60-19cddd96f9a2"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 238.76 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c31774e0-9e16-4d04-8723-d500148f737a")
+		(property "Reference" "R2"
+			(at 238.76 62.992 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 238.76 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 238.76 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 238.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4635cc4f-316d-4d5c-a82d-7b908d58ac35")
+		)
+		(pin "2"
+			(uuid "37bf14fc-ef3b-4411-8b9e-0066982a0415")
+		)
+		(instances
+			(project "Raspi_GPIB_Zero_V6"
+				(path "/b1f1a091-582b-48a7-9a60-19cddd96f9a2"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10460,7 +11307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 113.03 181.61 0)
 			(effects
 				(font
@@ -10473,6 +11320,205 @@
 			(project "Raspi_GPIB_Zero_V6"
 				(path "/b1f1a091-582b-48a7-9a60-19cddd96f9a2"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2dcf65f-662b-4471-9959-8bd6c519b5cf")
+		(property "Reference" "#PWR06"
+			(at 218.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0031c17-bdd9-4d63-8c6a-da76f93de7e7")
+		)
+		(instances
+			(project "Raspi_GPIB_Zero_V6"
+				(path "/b1f1a091-582b-48a7-9a60-19cddd96f9a2"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 246.38 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e430d0d2-9601-49f3-83ec-258f3572f279")
+		(property "Reference" "#PWR07"
+			(at 246.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bfff020-52b3-4f6d-b30c-860397327d2f")
+		)
+		(instances
+			(project "Raspi_GPIB_Zero_V6"
+				(path "/b1f1a091-582b-48a7-9a60-19cddd96f9a2"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 238.76 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4d3e588-8758-46ad-a567-2202225f08fc")
+		(property "Reference" "R1"
+			(at 238.76 56.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 238.76 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 238.76 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b600868-2aaf-4411-82bf-f32509464f20")
+		)
+		(pin "2"
+			(uuid "2dde6c0c-9a52-4ea3-93ec-0dfafcb50b63")
+		)
+		(instances
+			(project "Raspi_GPIB_Zero_V6"
+				(path "/b1f1a091-582b-48a7-9a60-19cddd96f9a2"
+					(reference "R1")
 					(unit 1)
 				)
 			)

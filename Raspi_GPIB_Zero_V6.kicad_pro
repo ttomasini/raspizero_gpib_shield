@@ -58,7 +58,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|156000000|129022504|c8db0b97-5bf9-4a68-a4af-294ed2350ec7|6ee4da42-d011-4341-93c8-e9f75a6f1f3f",
+        "silk_edge_clearance|156000000|73777504|c8db0b97-5bf9-4a68-a4af-294ed2350ec7|14f16ce0-f7ce-4c38-ac3d-ac63e1b33515",
+        "starved_thermal|108890000|116990000|1f01e0d3-e099-4afc-9a15-e097e5c8c4c1|96e172fd-b53c-4159-b658-fb786374b32b|F.Cu",
+        "starved_thermal|111430000|106830000|1f01e0d3-e099-4afc-9a15-e097e5c8c4c1|608f43f7-4ed6-4b58-b403-e60e72efdc77|B.Cu",
+        "starved_thermal|111430000|106830000|1f01e0d3-e099-4afc-9a15-e097e5c8c4c1|608f43f7-4ed6-4b58-b403-e60e72efdc77|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -489,7 +495,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "Raspi_GPIB_Zero_V6.net",
-      "plot": "",
+      "plot": "out/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
